@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+body {
+    font-family: "poppins", sans-serif;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #001a49;
+}
+
+.encabezado {
+    display: grid;
+    place-items: center;
+    background-color: red;
+
+}
+
+.nav_link {
+    margin-left: auto;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+
+
+}
+.llenar{
+    color: #fff;
+}
+.nav_items {
+    list-style: none;
+
+}
+
+.nav_links {
+    color: #000;
+    text-decoration: none;
+}
+#btn{
+    border: transparent;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+
+
+}
+.recomendaciones{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+}
+.subtitle{
+    padding: 10px 0px 10px 0px;
+    background-color: blue;
+    text-align: center;
+}
+.celdas{
+  background-color: #fff;
+   border: 1px solid black;
+   border-radius: 10px;
+    text-align: center;
+    margin: 3%;
+    width: 200px;
+    height: auto;
+    transition: transform .2s; 
+}
+.celdas:hover {
+    transform: scale(1.5); 
+}
+.image{
+     align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px transparent ;
+    border-top-right-radius: 10px;
+    border-top-left-radius:  10px;
+    
+    border-bottom:  1px solid black; 
+}
+.text{
+   
+    margin: 5%;
+    color: #000;
+
+}
+.link{
+    
+    margin: 3%;
+    background-color: white;
+    text-decoration: none;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    
+}
